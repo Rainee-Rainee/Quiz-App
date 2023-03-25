@@ -1,0 +1,54 @@
+.rainbow-border {
+    /* Set the element's basic styles */
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    border: 4px solid;
+  
+    /* Configure the rainbow border animation */
+    animation: rainbow-border 2s linear infinite;
+  }
+  
+.shaking {
+    animation: shaking 0.100s infinite;
+  }
+
+
+
+@keyframes shaking2 {
+  0% {}
+  25% {}
+  50% {}
+  75% {}
+  100% {}
+
+
+}
+
+@keyframes shaking {
+  0% { transform: rotate(0deg) translateY(-1px) translateX(-1px); }
+  12% { transform: rotate(1deg) translateY(1px) translateX(-1px); }
+  25% { transform: rotate(2deg) translateY(1px) translateX(1px); }
+  50% { transform: rotate(0deg) translateY(0px) translateX(0px); }
+  75% { transform: rotate(-5deg) translateY(-1px) translateX(1px); }
+  100% { transform: rotate(-1deg) translateY(1px) translateX(1px); }
+}
+
+@keyframes rainbow-border {
+    8%   { border-color: rgb(250, 6, 6); }
+    16%   {border-color: rgb(255, 94, 0);}
+    25%  { border-color: rgb(253, 167, 7); }
+    32%  {border-color: rgb(251, 255, 0);}
+    40%  { border-color: rgb(166, 255, 0); }
+    50%  { border-color: rgb(8, 233, 8); }
+    56%  { border-color: rgb(0, 162, 255); }
+    65% {border-color: rgb(0, 68, 255);}
+    74%  { border-color: rgb(98, 38, 209); }
+    84% {border-color: rgb(183, 0, 255);}
+    94%  { border-color: violet; }
+    100% { border-color: rgb(243, 0, 122); }
+  }
+
+  

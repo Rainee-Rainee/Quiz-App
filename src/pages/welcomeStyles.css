@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    /* Makes the grid size fill the page height and center the item veritically */
+    align-items: center;
+    height: 100%;
+    /* Horizontal center */
+    justify-items: center;    
+  }
+
+.title {
+    transform: translateY(-20%);
+  }
+
+
+  
+ 
